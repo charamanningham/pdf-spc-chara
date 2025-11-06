@@ -1,0 +1,13 @@
+# Core runtime
+streamlit>=1.32
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+reportlab>=4.0
+
+# Excel support
+openpyxl>=3.1        # needed by pandas to read/write .xlsx
+xlrd==1.2.0          # legacy .xls support (pandas engine="xlrd")
+
+# Imaging (ReportLab uses PIL under the hood for some image ops)
+Pillow>=10.0
